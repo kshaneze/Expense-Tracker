@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+h1 {
+  font-size: 65px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 30px;
+  color: rgb(15, 121, 15);
+}
+
+.app-container {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.name {
+  width: 1200px;
+  height: 35px;
+  border-radius: 6px;
+  border: gray 1px solid;
+}
+
+.date {
+  width: 518px;
+  height: 35px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: gray 1px solid;
+}
+
+.amount {
+  width: 515px;
+  height: 35px;
+  border-radius: 6px;
+  border: gray 1px solid;
+}
+
+.submit {
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 6px;
+  background-color: rgb(15, 121, 15);
+  color: white;
+  border: none;
+  outline: rgb(139, 248, 139);
+  margin-bottom: 100px;
+}
+
+.submit:hover {
+  background-color: rgb(4, 61, 4);
+}
+.submit:active {
+  transform: translateY(4px);
+}
+
+table {
+  font-size: 25px;
+  display: inline-table;
+}
+
+.table {
+  text-align: center;
+  margin: 20px;
+  margin-left: 55px;
+  border-collapse: collapse;
+  width: 65%;
+}
+
+th {
+  border: gray solid 1px;
+  text-align: left;
+  padding: 10px;
+}
+td {
+  text-align: center;
+  border: gray solid 1px;
+  padding: 10px;
+  text-align: left;
+  background-color: rgb(235, 232, 232);
+}
+
+tr:hover td {
+  background-color: rgb(61, 184, 102);
+}
+
+.btn-table {
+  border-radius: 2px;
+  height: 25px;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.btn-table:active {
+  transform: translateY(4px);
+}
+
+.btn-table:hover {
+  background-color: rgb(4, 61, 4);
+  color: white;
+}
